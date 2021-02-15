@@ -10,4 +10,5 @@
 -- It covers intuition, mathametical derivation and writing machine learning equations for logistic regression.
 5) Logistic regression with regularization from scratch.
 -- It covers writing machine learning equations for Regularization in logistic #regression. It covers intuition, and how regularization aids to avoid Overfitting in the data. It also includes visualization of Lambda showing Overfitting and Underfitting cases using Andrew Ng Coursera dataset in python. (https://www.youtube.com/watch?v=a5F4mGCUuCQ)
+6) MultiClass Classification in logistic Regression & OneHotEncoding from Scratch:- It covers major concept of Multiclass classification model and OneHotEncoding intuition.
 
