@@ -17,7 +17,7 @@ class LogisticRegression:
     def costfunction(self,theta,X,y):
         m,n = X.shape
         htheta = self.hypothesis(X,theta)
-        J = (np.dot(-y,np.log(htheta)) - np.dot((1-y),np.log(1-htheta)))/m
+        J = (-1/m) * np.sum(np.multiply(y, np.log(htheta)) + np.multiply((1-y), np.log(1 - htheta)))
         return J
 
     def gradient(self,X,y,theta):
