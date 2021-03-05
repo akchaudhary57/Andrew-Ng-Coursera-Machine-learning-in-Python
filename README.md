@@ -48,3 +48,7 @@
 
 [BackPropagation (Neural Network).ipynb](https://github.com/akchaudhary57/Machine-learning-Equations/blob/main/Neural%20Network/BackPropagation%20(Neural%20Network).ipynb)
 -- It covers both theory and implementation of BackPropagation Neural Network from Scratch.[YouTube Link BackPropagation](https://www.youtube.com/watch?v=grneFIWx5Mw)
+
+![Cost Function](https://github.com/akchaudhary57/Machine-learning-Equations/blob/main/Neural%20Network/Figures/Costfunction.PNG)
+![Sigmoid Gradient](https://github.com/akchaudhary57/Machine-learning-Equations/blob/main/Neural%20Network/Figures/sigmoidGradient.PNG)
+
