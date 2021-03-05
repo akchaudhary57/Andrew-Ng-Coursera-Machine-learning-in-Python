@@ -44,7 +44,7 @@
 ![OneVsAll](https://github.com/akchaudhary57/Machine-learning-Equations/blob/main/Logistic%20Regression/Figures/OneVsAll.png)
 
 7) **Neural Network from Scratch (Feedforward and Backward Propagation:-**[Feedforward Implementation ( Neural Network).ipynb](https://github.com/akchaudhary57/Machine-learning-Equations/tree/main/Neural%20Network)
-8)  -- It covers both theory and implementation of Feedforward Propagation Neural Network from Scratch.[YouTube Link Feedforward Propagation](https://www.youtube.com/watch?v=_ss3vROC5P8&t=1186s)
+-- It covers both theory and implementation of Feedforward Propagation Neural Network from Scratch.[YouTube Link Feedforward Propagation](https://www.youtube.com/watch?v=_ss3vROC5P8&t=1186s)
 
 [BackPropagation (Neural Network).ipynb](https://github.com/akchaudhary57/Machine-learning-Equations/blob/main/Neural%20Network/BackPropagation%20(Neural%20Network).ipynb)
 -- It covers both theory and implementation of BackPropagation Neural Network from Scratch.[YouTube Link BackPropagation](https://www.youtube.com/watch?v=grneFIWx5Mw)
