@@ -51,3 +51,10 @@ class KMeans:
         for i in range(self.K):
             centriod[i] = X[np.random.randint(0,m+1),:]
         return centriod
+
+    def runKmeans(self,X,centroid,num_iter):
+        idx = self.findClosestCentroids(X,centroid)
+        for i in range(num_iter):
+            centroid =  self.computeCentroids(X,idx)
+            idx = self.findClosestCentroids(X,centroid)
+        return centroid,idx
