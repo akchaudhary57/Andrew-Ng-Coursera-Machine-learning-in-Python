@@ -18,3 +18,21 @@ class pca:
         sigma = 1/m*(X.T@X)
         U,S,V = svd(sigma)
         return U,S,V,sigma
+
+
+    def projectdata(self,X,U,k):
+        m = X.shape[0]
+        U_reduced = U[:,:k]
+        Z = np.zeros((m,k))
+        for i in range(m):
+            for j in range(k):
+                Z[i,j] = X[i,:] @ U_reduced[:,j]
+        return Z
+
+    def recoverdata(self,Z,U,k):
+        m,n = Z.shape[0],U.shape[0]
+        U_reduced = U[:,:k]
+        x_rec = np.zeros((m,n))
+        for i in range(m):
+                x_rec[i,:] = Z[i,:] @ U_reduced.T
+        return x_rec
